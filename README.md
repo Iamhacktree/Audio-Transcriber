@@ -76,7 +76,7 @@ This project is an **Audio to Text Transcriber** that allows users to upload an 
 
 ## Screenshots
 ### Upload Page
-'''![Screenshot 2025-02-13 191154](https://github.com/user-attachments/assets/29305d5d-d548-4e66-b477-75ae3a6dd45f)
+``![Screenshot 2025-02-13 191154](https://github.com/user-attachments/assets/29305d5d-d548-4e66-b477-75ae3a6dd45f)
 
 ## Troubleshooting
 - Ensure the backend server is running (`http://localhost:8080` by default).
