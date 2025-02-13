@@ -1,0 +1,17 @@
+package com.Project.audio_transcriber.controller;
+
+import org.springframework.ai.openai.OpenAiAudioTranscriptionModel;
+import org.springframework.ai.openai.api.OpenAiAudioApi;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/transcriber")
+public class TranscriptionController {
+	private final OpenAiAudioTranscriptionModel transcriptModel;
+	
+	public TranscriptionController(String api_key) {
+		OpenAiAudioApi openAiAudioApi = new OpenAiAudioApi(System.getenv("spring.ai.openai.api-key"));
+		this.transcriptModel = new OpenAiAudioTranscriptionModel(openAiAudioApi);
+	}
+}

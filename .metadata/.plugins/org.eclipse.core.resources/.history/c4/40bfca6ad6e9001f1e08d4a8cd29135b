@@ -1,0 +1,5 @@
+package com.Project.audio_transcriber.controller;
+
+public class TranscriptionController {
+
+}

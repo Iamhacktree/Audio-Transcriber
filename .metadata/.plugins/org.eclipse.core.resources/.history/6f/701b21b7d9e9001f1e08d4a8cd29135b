@@ -1,0 +1,5 @@
+spring.application.name=audio-transcriber
+
+spring.ai.openai.api-key={api-key}
+
+spring.ai.openai.audio.transcription.base-url = https//api.openai.com

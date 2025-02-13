@@ -1,0 +1,5 @@
+package com.Project.audio_transcriber.configuration;
+
+public class WebConfig {
+
+}

@@ -1,0 +1,68 @@
+#root{
+  max-width: 1280px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  max-width: 600px;
+  margin: 50px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #1C1C1C;
+}
+h1{
+  color: wheat;
+  margin-bottom: auto;
+}
+
+.file-input{
+  margin: 20px 0;
+  color: white
+}
+
+.file-input input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload_button{
+  background-color: rgb(27, 177, 232);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.transcription-result{
+  margin-top: 10px;
+  text-align: center;
+  color: wheat;
+}
+
+.transcription-result h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: rgb(68, 151, 68)
+}
+
+.transcription-result p{
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+body {
+  background-color: #2B2B2B;
+  color: white; /* Ensures text remains visible */
+  margin: 0;
+  padding: 0;
+}
